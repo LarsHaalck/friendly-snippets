@@ -2,7 +2,8 @@
   "for": {
     "prefix": "for",
     "body": [
-      "for (${1:size_t} ${2:i} = ${3:0}; $2 < ${4:length}; $2++) {",
+      "for (${1:size_t} ${2:i} = ${3:0}; $2 < ${4:length}; $2++)",
+	  "{",
       "\t$0",
       "}"
     ],
@@ -11,7 +12,8 @@
   "forr": {
     "prefix": "forr",
     "body": [
-      "for (${1:size_t} ${2:i} = ${3:length} - 1; $2 >= ${4:0}; $2--) {",
+      "for (${1:size_t} ${2:i} = ${3:length} - 1; $2 >= ${4:0}; $2--)",
+	  "{",
       "\t$0",
       "}"
     ],
@@ -49,12 +51,12 @@
   },
   "enum": {
     "prefix": "enum",
-    "body": ["enum ${1:MyEnum} {", "\t$0", "};"],
+    "body": ["enum ${1:MyEnum}", "{", "", "\t$0", "};"],
     "description": "Code snippet for enum"
   },
   "enum class": {
     "prefix": "enum class",
-    "body": ["enum class ${1:MyClass} {$0};"],
+    "body": ["enum class ${1:MyClass}", "{", "$0", "};"],
     "description": "Code snippet for enum class (c++11)"
   },
   "class": {
@@ -165,7 +167,7 @@
   },
   "switch": {
     "prefix": "switch",
-    "body": ["switch (${1:switch_on}) {", "\tdefault:", "\t\t$0", "\t\tbreak;", "}"],
+    "body": ["switch (${1:switch_on})", "{", "", "\tdefault:", "\t\t$0", "\t\tbreak;", "}"],
     "description": "Code snippet for switch statement"
   },
   "try": {
