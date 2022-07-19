@@ -1,4 +1,15 @@
 {
+  "YAML Block": {
+    "prefix": "yaml",
+    "body": [
+      "---",
+      "title: ${1:title}",
+      "keywords: ${2:keywords}",
+      "---",
+      "$0"
+    ],
+    "description": "Add YAML block for pandoc"
+  },
   "header 1": {
     "prefix": "h1",
     "body": ["# ${0}"],
