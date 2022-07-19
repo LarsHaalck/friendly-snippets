@@ -1,0 +1,27 @@
+{
+  "Pyplot": {
+    "prefix": "iplt",
+    "body": "import matplotlib.pyplot as plt",
+    "description": "Pyplot"
+  },
+  "Matplotlib": {
+    "prefix": "impl",
+    "body": "import matplotlib as mpl",
+    "description": "Matplotlib"
+  },
+  "Numpy": {
+    "prefix": "inp",
+    "body": "import numpy as np",
+    "description": "Numpy"
+  },
+  "Pandas": {
+    "prefix": "ipd",
+    "body": "import pandas as pd",
+    "description": "Pandas"
+  },
+  "Seaborn": {
+    "prefix": "isns",
+    "body": "import seaborn as sns",
+    "description": "Seaborn"
+  }
+}
