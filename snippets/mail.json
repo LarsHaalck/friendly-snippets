@@ -1,0 +1,54 @@
+{
+  "Sehr geehrte": {
+    "prefix": "sehr",
+    "body": [
+      "Sehr geehrte${0},"
+    ],
+    "description": "Sehr geehrte"
+  },
+  "Viele Grüße Lars": {
+    "prefix": "vgl",
+    "body": [
+      "${0}",
+      "Viele Grüße",
+      "Lars"
+    ],
+    "description": "Viele Grüße Lars"
+  },
+  "Viele Grüße Haalck": {
+    "prefix": "vgh",
+    "body": [
+      "${0}",
+      "Viele Grüße",
+      "Lars Haalck"
+    ],
+    "description": "Viele Grüße Haalck"
+  },
+  "Mit freundlichen Grüßen": {
+    "prefix": "mfg",
+    "body": [
+      "${0}",
+      "Mit freundlichen Grüßen",
+      "Lars Haalck"
+    ],
+    "description": "Mit freundlichen Grüßen"
+  },
+  "Best": {
+    "prefix": "best",
+    "body": [
+      "${0}",
+      "Best,",
+      "Lars"
+    ],
+    "description": "Best"
+  },
+  "Yours": {
+    "prefix": "yours",
+    "body": [
+      "${0}",
+      "Yours sincerely,",
+      "Lars Haalck"
+    ],
+    "description": "Yours sincerely"
+  }
+}

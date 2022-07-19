@@ -389,6 +389,10 @@
         "path": "./snippets/make.json"
       },
       {
+        "language": "mail",
+        "path": "./snippets/mail.json"
+      },
+      {
         "language": "dart",
         "path": "./snippets/dart.json"
       },
